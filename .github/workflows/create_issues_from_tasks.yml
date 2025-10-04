@@ -1,13 +1,13 @@
-name: 🧠 Auto-Create Issues from tasks.yml
+name: 🧠 Auto-Sync Issues from tasks.yml
 
 on:
-  workflow_dispatch:        # ✅ allows manual trigger
+  workflow_dispatch:
   push:
     paths:
-      - "tasks.yml"         # ✅ runs when tasks.yml changes
+      - "tasks.yml"
 
 jobs:
-  generate_issues:
+  sync_issues:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -27,13 +27,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      - name: Create issues from tasks.yml
+      - name: Create or update issues from tasks.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
           python - <<'PY'
-          import os, yaml, requests
+          import os, yaml, requests, difflib
 
           token = os.environ["GITHUB_TOKEN"]
           repo  = os.environ["REPO"]
@@ -47,7 +47,6 @@ jobs:
           with open("tasks.yml", "r", encoding="utf-8") as f:
               data = yaml.safe_load(f)
 
-          # Handle both formats: (old) top-level phases / (new) milestones → phases
           if "phases" in data:
               all_phases = data["phases"]
           elif "milestones" in data:
@@ -58,7 +57,7 @@ jobs:
           else:
               raise KeyError("Neither 'phases' nor 'milestones' found in tasks.yml")
 
-          # ---------- Helper: Get existing issues ----------
+          # ---------- Helpers ----------
           def get_all_issues():
               out, page = [], 1
               while True:
@@ -72,9 +71,11 @@ jobs:
                   page += 1
               return out
 
-          existing = {i["title"] for i in get_all_issues() if "pull_request" not in i}
+          existing = {
+              i["title"]: {"number": i["number"], "body": i.get("body","")}
+              for i in get_all_issues() if "pull_request" not in i
+          }
 
-          # ---------- Helper: Ensure label ----------
           def ensure_label(name, color="0e8a16"):
               r = requests.get(f"{base}/labels/{name}", headers=H)
               if r.status_code == 200:
@@ -83,17 +84,13 @@ jobs:
 
           ensure_label("AI-Task", "0e8a16")
 
-          # ---------- Create issues ----------
+          # ---------- Main Loop ----------
           for ph in all_phases:
               week = ph.get("week") or ph.get("name", "Unspecified")
               ensure_label(f"Week-{week}", "5319e7")
 
               for task in ph.get("tasks", []):
                   title = f"[{task['id']}] {task['title']}"
-                  if title in existing:
-                      print(f"• Skip (exists): {title}")
-                      continue
-
                   labels = ["AI-Task", f"Week-{week}"]
                   if "labels" in task:
                       labels += task["labels"]
@@ -104,8 +101,28 @@ jobs:
                   if "deliverable" in task:
                       body += f"\n\n**Deliverable:** {task['deliverable']}"
 
-                  payload = {"title": title, "body": body, "labels": labels}
-                  res = requests.post(f"{base}/issues", headers=H, json=payload)
-                  print(f"{'✅' if res.status_code==201 else '❌'} {title} ({res.status_code})")
+                  # ---- Create new issue if not exists ----
+                  if title not in existing:
+                      payload = {"title": title, "body": body, "labels": labels}
+                      res = requests.post(f"{base}/issues", headers=H, json=payload)
+                      print(f"{'✅' if res.status_code==201 else '❌'} Created: {title} ({res.status_code})")
+                      continue
 
+                  # ---- Update existing issue if body changed ----
+                  issue = existing[title]
+                  if issue["body"].strip() != body.strip():
+                      diff = "\n".join(
+                          difflib.unified_diff(
+                              issue["body"].splitlines(),
+                              body.splitlines(),
+                              lineterm=""
+                          )
+                      )
+                      print(f"📝 Updating: {title} (content changed)")
+                      print(diff)
+                      update_payload = {"body": body, "labels": labels}
+                      res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json=update_payload)
+                      print(f"↳ {res.status_code}")
+                  else:
+                      print(f"• No change: {title}")
           PY
