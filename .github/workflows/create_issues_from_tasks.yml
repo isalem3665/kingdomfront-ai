@@ -27,7 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      - name: Create or update issues from tasks.yml
+      - name: Sync issues from tasks.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
@@ -72,8 +72,13 @@ jobs:
               return out
 
           existing = {
-              i["title"]: {"number": i["number"], "body": i.get("body","")}
-              for i in get_all_issues() if "pull_request" not in i
+              i["title"]: {
+                  "number": i["number"],
+                  "state": i["state"],
+                  "body": i.get("body","")
+              }
+              for i in get_all_issues()
+              if "pull_request" not in i
           }
 
           def ensure_label(name, color="0e8a16"):
@@ -84,6 +89,9 @@ jobs:
 
           ensure_label("AI-Task", "0e8a16")
 
+          # ---------- Gather all current task titles ----------
+          defined_titles = set()
+
           # ---------- Main Loop ----------
           for ph in all_phases:
               week = ph.get("week") or ph.get("name", "Unspecified")
@@ -91,6 +99,7 @@ jobs:
 
               for task in ph.get("tasks", []):
                   title = f"[{task['id']}] {task['title']}"
+                  defined_titles.add(title)
                   labels = ["AI-Task", f"Week-{week}"]
                   if "labels" in task:
                       labels += task["labels"]
@@ -118,11 +127,26 @@ jobs:
                               lineterm=""
                           )
                       )
-                      print(f"📝 Updating: {title} (content changed)")
+                      print(f"📝 Updating: {title}")
                       print(diff)
-                      update_payload = {"body": body, "labels": labels}
+                      update_payload = {"body": body, "labels": labels, "state": "open"}
                       res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json=update_payload)
-                      print(f"↳ {res.status_code}")
+                      print(f"↳ Updated ({res.status_code})")
                   else:
-                      print(f"• No change: {title}")
+                      # Reopen closed issues automatically
+                      if issue["state"] == "closed":
+                          res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json={"state": "open"})
+                          print(f"🔁 Reopened: {title} ({res.status_code})")
+                      else:
+                          print(f"• No change: {title}")
+
+          # ---------- Close removed issues ----------
+          removed = [t for t in existing if t not in defined_titles]
+          for title in removed:
+              issue = existing[title]
+              if issue["state"] != "closed":
+                  res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json={"state": "closed"})
+                  print(f"❎ Closed removed: {title} ({res.status_code})")
+
+          print(f"✅ Sync complete. Created/updated: {len(defined_titles)} tasks, Closed: {len(removed)}")
           PY
