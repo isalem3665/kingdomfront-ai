@@ -1,13 +1,13 @@
-name: 🧠 Auto-Sync Issues from tasks.yml
+name: 🧠 Auto-Create Issues from tasks.yml
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:        # ✅ allows manual trigger
   push:
     paths:
-      - "tasks.yml"
+      - "tasks.yml"         # ✅ runs when tasks.yml changes
 
 jobs:
-  sync_issues:
+  generate_issues:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -27,26 +27,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests
 
-      - name: Sync issues from tasks.yml
+      - name: Create issues from tasks.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
           python - <<'PY'
-          import os, yaml, requests, difflib
+          import os, yaml, requests
 
           token = os.environ["GITHUB_TOKEN"]
           repo  = os.environ["REPO"]
           base  = f"https://api.github.com/repos/{repo}"
-          H = {
-              "Authorization": f"Bearer {token}",
-              "Accept": "application/vnd.github+json"
-          }
+          H = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
 
-          # ---------- Load YAML ----------
           with open("tasks.yml", "r", encoding="utf-8") as f:
               data = yaml.safe_load(f)
 
+          # Handle both formats (phases or milestones)
           if "phases" in data:
               all_phases = data["phases"]
           elif "milestones" in data:
@@ -57,7 +54,7 @@ jobs:
           else:
               raise KeyError("Neither 'phases' nor 'milestones' found in tasks.yml")
 
-          # ---------- Helpers ----------
+          # ----- Get existing issues -----
           def get_all_issues():
               out, page = [], 1
               while True:
@@ -71,82 +68,32 @@ jobs:
                   page += 1
               return out
 
-          existing = {
-              i["title"]: {
-                  "number": i["number"],
-                  "state": i["state"],
-                  "body": i.get("body","")
-              }
-              for i in get_all_issues()
-              if "pull_request" not in i
-          }
+          existing = {i["title"] for i in get_all_issues() if "pull_request" not in i}
 
+          # ----- Ensure default label -----
           def ensure_label(name, color="0e8a16"):
-              r = requests.get(f"{base}/labels/{name}", headers=H)
-              if r.status_code == 200:
+              res = requests.get(f"{base}/labels/{name}", headers=H)
+              if res.status_code == 200:
                   return
               requests.post(f"{base}/labels", headers=H, json={"name": name, "color": color})
 
           ensure_label("AI-Task", "0e8a16")
 
-          # ---------- Gather all current task titles ----------
-          defined_titles = set()
-
-          # ---------- Main Loop ----------
+          # ----- Create issues -----
           for ph in all_phases:
               week = ph.get("week") or ph.get("name", "Unspecified")
               ensure_label(f"Week-{week}", "5319e7")
 
-              for task in ph.get("tasks", []):
-                  title = f"[{task['id']}] {task['title']}"
-                  defined_titles.add(title)
-                  labels = ["AI-Task", f"Week-{week}"]
-                  if "labels" in task:
-                      labels += task["labels"]
-
-                  body = f"**Phase:** {ph.get('name','N/A')}\n\n**Description:** {task.get('desc','No description')}\n\n_Source: tasks.yml_"
-                  if "goal" in ph:
-                      body = f"**Goal:** {ph['goal']}\n\n" + body
-                  if "deliverable" in task:
-                      body += f"\n\n**Deliverable:** {task['deliverable']}"
-
-                  # ---- Create new issue if not exists ----
-                  if title not in existing:
-                      payload = {"title": title, "body": body, "labels": labels}
-                      res = requests.post(f"{base}/issues", headers=H, json=payload)
-                      print(f"{'✅' if res.status_code==201 else '❌'} Created: {title} ({res.status_code})")
+              for t in ph.get("tasks", []):
+                  title = f"[{t['id']}] {t['title']}"
+                  if title in existing:
+                      print(f"• Skip (exists): {title}")
                       continue
-
-                  # ---- Update existing issue if body changed ----
-                  issue = existing[title]
-                  if issue["body"].strip() != body.strip():
-                      diff = "\n".join(
-                          difflib.unified_diff(
-                              issue["body"].splitlines(),
-                              body.splitlines(),
-                              lineterm=""
-                          )
-                      )
-                      print(f"📝 Updating: {title}")
-                      print(diff)
-                      update_payload = {"body": body, "labels": labels, "state": "open"}
-                      res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json=update_payload)
-                      print(f"↳ Updated ({res.status_code})")
-                  else:
-                      # Reopen closed issues automatically
-                      if issue["state"] == "closed":
-                          res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json={"state": "open"})
-                          print(f"🔁 Reopened: {title} ({res.status_code})")
-                      else:
-                          print(f"• No change: {title}")
-
-          # ---------- Close removed issues ----------
-          removed = [t for t in existing if t not in defined_titles]
-          for title in removed:
-              issue = existing[title]
-              if issue["state"] != "closed":
-                  res = requests.patch(f"{base}/issues/{issue['number']}", headers=H, json={"state": "closed"})
-                  print(f"❎ Closed removed: {title} ({res.status_code})")
-
-          print(f"✅ Sync complete. Created/updated: {len(defined_titles)} tasks, Closed: {len(removed)}")
+                  labels = ["AI-Task", f"Week-{week}"]
+                  if "labels" in t:
+                      labels += t["labels"]
+                  body = f"**Week:** {week}\n\n**Description:** {t['desc']}\n\n_Source: tasks.yml_"
+                  payload = {"title": title, "body": body, "labels": labels}
+                  res = requests.post(f"{base}/issues", headers=H, json=payload)
+                  print(f"{'✅' if res.status_code==201 else '❌'} {title} ({res.status_code})")
           PY

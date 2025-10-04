@@ -1,229 +1,208 @@
-version: 3
+version: 1
 project: KingdomFront AI
 owner: AI Engineering
-milestones:
-  - id: MVP
-    name: Mini-MVP (AI Core)
-    timeline_weeks: 6
-    phases:
-      - week: 1
-        name: Data & Setup
-        tasks:
-          - id: MVP-D1
-            title: Collect Riyadh event/restaurant data
-            labels: [data]
-            desc: Build CSV with columns [id,title,category,tags,price_sar,rating,url,city]
-          - id: MVP-D2
-            title: Create lightweight search index
-            labels: [search]
-            desc: Index CSV into SQLite/Elasticsearch; expose simple keyword search()
-          - id: MVP-D3
-            title: Initialize repo & docker-compose
-            labels: [devops]
-            desc: Create base structure, install dependencies, commit baseline image
-      - week: 2
-        name: Conversation Agent (Intent Extraction)
-        tasks:
-          - id: MVP-A1
-            title: Prompt design for Arabic/English intent extraction
-            labels: [nlp,prompt]
-            desc: Define system prompt and JSON schema {intent, slots, confidence}
-          - id: MVP-A2
-            title: Implement conversation_agent.py
-            labels: [nlp,api]
-            desc: Use GPT-4o-mini / Llama API to return structured intent + slots
-          - id: MVP-A3
-            title: Unit test 20 example queries
-            labels: [testing]
-            desc: Measure precision/recall on slot extraction
-      - week: 3
-        name: Recommendation Agent
-        tasks:
-          - id: MVP-R1
-            title: Implement base retrieval
-            labels: [search]
-            desc: Keyword + tag search from indexed data
-          - id: MVP-R2
-            title: Implement LLM reranker
-            labels: [rank,prompt]
-            desc: Use rerank_prompt.txt to score top-10 candidates; normalize 0–1
-          - id: MVP-R3
-            title: Combine into recommend()
-            labels: [api]
-            desc: Return top 5 {title, reason, score}
-      - week: 4
-        name: Orchestrator Integration
-        tasks:
-          - id: MVP-O1
-            title: Chain conversation → recommendation
-            labels: [agentic,orchestrator]
-            desc: Build orchestrator.py with clear reasoning flow
-          - id: MVP-O2
-            title: Add session memory (Redis)
-            labels: [memory,redis]
-            desc: Cache last query, context, and feedback
-          - id: MVP-O3
-            title: Log full reasoning trace to JSONL
-            labels: [observability,logging]
-            desc: Include intent, retrieved items, rerank scores, model latency
-      - week: 5
-        name: Reflection & Feedback
-        tasks:
-          - id: MVP-F1
-            title: Build feedback_logger.py
-            labels: [feedback]
-            desc: CLI input 👍/👎 to store user feedback to CSV
-          - id: MVP-F2
-            title: Reflection Agent job
-            labels: [agentic,learning]
-            desc: Nightly script adjusts item weights by feedback ratio
-          - id: MVP-F3
-            title: Generate daily reflection report
-            labels: [reporting]
-            desc: Summarize stats → save under /logs/reflection/YYYYMMDD.json
-      - week: 6
-        name: Evaluation & Tuning
-        tasks:
-          - id: MVP-E1
-            title: Collect 50 test queries (Arabic/English)
-            labels: [eval]
-            desc: Label true intent + top-3 correct items
-          - id: MVP-E2
-            title: Compute metrics (intent acc, MRR, feedback rate)
-            labels: [eval,metrics]
-            desc: Use notebooks/eval_metrics.ipynb
-          - id: MVP-E3
-            title: Record demo session + summary doc
-            labels: [demo]
-            desc: Present AI reasoning flow, top-5 outputs, learning behavior
 
-  - id: PILOT
-    name: Agentic AI Pilot Upgrades
-    timeline_weeks: 6
-    phases:
-      - name: ⚡ Latency Optimization
-        goal: Reduce model response time from ~12s to <3s
-        tasks:
-          - id: PILOT-L1
-            title: Tune model parameters
-            labels: [performance]
-            desc: Update all LLM calls to use model gpt-4o-mini, temperature=0.1, max_tokens=256
-            deliverable: "<2s average latency across 10 queries"
-          - id: PILOT-L2
-            title: Add caching layer
-            labels: [performance,redis]
-            desc: Cache LLM responses per (intent,slots) in Redis with TTL=1h
-            deliverable: src/memory.py supports get_cache/set_cache
-          - id: PILOT-L3
-            title: Add async parallel requests
-            labels: [performance,python]
-            desc: Use asyncio for reranking multiple items simultaneously
-            deliverable: End-to-end latency ~3s
-      - name: 📚 RAG Integration
-        goal: Retrieve real event data from CSV / Elasticsearch
-        tasks:
-          - id: PILOT-R1
-            title: Index CSV to Elasticsearch
-            labels: [rag,elasticsearch,data]
-            desc: Use existing cluster or create index kingdomfront_events with fields [title,desc,tags,price,location,city]
-            deliverable: 300+ Riyadh event docs indexed
-          - id: PILOT-R2
-            title: Implement RAG retriever
-            labels: [rag,search]
-            desc: Create src/utils/rag_retriever.py using hybrid search (BM25 + embedding) to fetch top 10 hits
-            deliverable: retrieve_events(query:str) returns JSON list
-          - id: PILOT-R3
-            title: Integrate retriever into recommender
-            labels: [rag,rank]
-            desc: Replace static CSV filter with RAG-based retrieval + LLM rerank
-            deliverable: Top-5 real events per query
-      - name: 🔁 Reflection Agent v1
-        goal: Enable daily feedback-based learning loop
-        tasks:
-          - id: PILOT-F1
-            title: Capture feedback
-            labels: [feedback]
-            desc: Extend feedback_logger.py to append user_id,item_id,rating (👍=1,👎=0) to data/feedback.csv
-            deliverable: Feedback file with timestamps and item IDs
-          - id: PILOT-F2
-            title: Reweight items
-            labels: [learning]
-            desc: reflection_agent.py computes rolling averages and updates popularity weight
-            deliverable: data/events_reflected.csv consumed by recommender
-          - id: PILOT-F3
-            title: Automate reflection
-            labels: [ops]
-            desc: Add cron/scheduler; log summaries to /logs/reflection/YYYYMMDD.json
-            deliverable: Daily job runs successfully
-      - name: 🧩 Memory Context (Conversational)
-        goal: Maintain context between turns
-        tasks:
-          - id: PILOT-M1
-            title: Redis session cache
-            labels: [memory,redis]
-            desc: Implement set_context()/get_context() for {user_id,last_city,last_query}
-            deliverable: “وش بعد؟” works with previous context
-          - id: PILOT-M2
-            title: Orchestrator integration
-            labels: [agentic,orchestrator]
-            desc: Orchestrator reuses memory if city/category not mentioned
-            deliverable: Missing fields auto-resolve
-          - id: PILOT-M3
-            title: Session expiry
-            labels: [ops,redis]
-            desc: TTL 3600s on session keys
-            deliverable: Memory auto-expires after 1h
-      - name: 🧮 Metric Tracking & Observability
-        goal: Evaluate reasoning quality and system performance
-        tasks:
-          - id: PILOT-O1
-            title: Add Prometheus metrics endpoint
-            labels: [metrics,observability]
-            desc: Expose /metrics with request count, latency, intent accuracy
-            deliverable: Prometheus scraping AI metrics
-          - id: PILOT-O2
-            title: Implement reasoning trace logs
-            labels: [observability,logging]
-            desc: Write reasoning chain to logs/traces/YYYYMMDD.jsonl
-            deliverable: Intent, context, actions, outputs captured
-          - id: PILOT-O3
-            title: Grafana dashboard
-            labels: [observability,grafana]
-            desc: Panels for Latency (p95), Feedback Positivity, Accuracy Trend
-            deliverable: Dashboard "KingdomFront-AI-Core"
-      - name: 💬 Arabic Reasoning Prompt
-        goal: Improve cultural and linguistic alignment
-        tasks:
-          - id: PILOT-A1
-            title: Arabic prompt design
-            labels: [prompt,localization]
-            desc: Create /src/prompts/intent_prompt_ar.txt and /src/prompts/rerank_prompt_ar.txt
-            deliverable: Arabic-optimized prompts in repo
-          - id: PILOT-A2
-            title: Language switcher
-            labels: [nlp]
-            desc: Detect query language and load corresponding prompt
-            deliverable: Dynamic prompt loading by lang
-          - id: PILOT-A3
-            title: Evaluate localization
-            labels: [eval]
-            desc: Compare AR vs EN with 20 queries; assess cultural appropriateness
-            deliverable: notebooks/eval_ar_localization.ipynb
-      - name: 🧱 LangChain Orchestrator v1
-        goal: Add agent routing and function-calling pipeline
-        tasks:
-          - id: PILOT-C1
-            title: Integrate LangChain base agent
-            labels: [agentic,langchain]
-            desc: initialize_agent with tools [conversation, recommend, reflect]
-            deliverable: src/orchestrator_v1.py
-          - id: PILOT-C2
-            title: Define tool interfaces
-            labels: [langchain]
-            desc: Register each agent function via LC tool decorators
-            deliverable: Tool registry auto-wired
-          - id: PILOT-C3
-            title: Reasoning trace visualization
-            labels: [observability]
-            desc: Persist intermediate steps (actions, results) for 10 pilot runs
-            deliverable: Trace artifacts saved
+phases:
+  # --- Mini-MVP ---
+  - week: 1
+    name: Data & Setup
+    tasks:
+      - id: MVP-D1
+        title: Collect Riyadh event/restaurant data
+        labels: [data]
+        desc: Build CSV with columns [id,title,category,tags,price_sar,rating,url,city]
+      - id: MVP-D2
+        title: Create lightweight search index
+        labels: [search]
+        desc: Index CSV into SQLite/Elasticsearch; expose simple keyword search()
+      - id: MVP-D3
+        title: Initialize repo & docker-compose
+        labels: [devops]
+        desc: Create base structure, install dependencies, commit baseline image
+
+  - week: 2
+    name: Conversation Agent (Intent Extraction)
+    tasks:
+      - id: MVP-A1
+        title: Prompt design for Arabic/English intent extraction
+        labels: [nlp,prompt]
+        desc: Define system prompt and JSON schema {intent, slots, confidence}
+      - id: MVP-A2
+        title: Implement conversation_agent.py
+        labels: [nlp,api]
+        desc: Use GPT-4o-mini / Llama API to return structured intent + slots
+      - id: MVP-A3
+        title: Unit test 20 example queries
+        labels: [testing]
+        desc: Measure precision/recall on slot extraction
+
+  - week: 3
+    name: Recommendation Agent
+    tasks:
+      - id: MVP-R1
+        title: Implement base retrieval
+        labels: [search]
+        desc: Keyword + tag search from indexed data
+      - id: MVP-R2
+        title: Implement LLM reranker
+        labels: [rank,prompt]
+        desc: Use rerank_prompt.txt to score top-10 candidates; normalize 0–1
+      - id: MVP-R3
+        title: Combine into recommend()
+        labels: [api]
+        desc: Return top 5 {title, reason, score}
+
+  - week: 4
+    name: Orchestrator Integration
+    tasks:
+      - id: MVP-O1
+        title: Chain conversation → recommendation
+        labels: [agentic,orchestrator]
+        desc: Build orchestrator.py with clear reasoning flow
+      - id: MVP-O2
+        title: Add session memory (Redis)
+        labels: [memory,redis]
+        desc: Cache last query, context, and feedback
+      - id: MVP-O3
+        title: Log full reasoning trace to JSONL
+        labels: [observability,logging]
+        desc: Include intent, retrieved items, rerank scores, model latency
+
+  - week: 5
+    name: Reflection & Feedback
+    tasks:
+      - id: MVP-F1
+        title: Build feedback_logger.py
+        labels: [feedback]
+        desc: CLI input 👍/👎 to store user feedback to CSV
+      - id: MVP-F2
+        title: Reflection Agent job
+        labels: [agentic,learning]
+        desc: Nightly script adjusts item weights by feedback ratio
+      - id: MVP-F3
+        title: Generate daily reflection report
+        labels: [reporting]
+        desc: Summarize stats → save under /logs/reflection/YYYYMMDD.json
+
+  - week: 6
+    name: Evaluation & Tuning
+    tasks:
+      - id: MVP-E1
+        title: Collect 50 test queries (Arabic/English)
+        labels: [eval]
+        desc: Label true intent + top-3 correct items
+      - id: MVP-E2
+        title: Compute metrics (intent acc, MRR, feedback rate)
+        labels: [eval,metrics]
+        desc: Use notebooks/eval_metrics.ipynb
+      - id: MVP-E3
+        title: Record demo session + summary doc
+        labels: [demo]
+        desc: Present AI reasoning flow, top-5 outputs, learning behavior
+
+  # --- Pilot Upgrades ---
+  - week: 7
+    name: ⚡ Latency Optimization
+    goal: Reduce model response time from ~12 s to < 3 s
+    tasks:
+      - id: PILOT-L1
+        title: Tune model parameters
+        labels: [performance]
+        desc: Update LLM calls to gpt-4o-mini temperature 0.1 max_tokens 256
+      - id: PILOT-L2
+        title: Add caching layer
+        labels: [performance,redis]
+        desc: Cache responses per (intent, slots) in Redis TTL 1h
+      - id: PILOT-L3
+        title: Add async parallel requests
+        labels: [performance,python]
+        desc: Use asyncio for reranking multiple items simultaneously
+
+  - week: 8
+    name: 📚 RAG Integration
+    goal: Retrieve real event data from CSV / Elasticsearch
+    tasks:
+      - id: PILOT-R1
+        title: Index CSV to Elasticsearch
+        labels: [rag,elasticsearch,data]
+        desc: Create index kingdomfront_events with fields [title, desc, tags, price, location, city]
+      - id: PILOT-R2
+        title: Implement RAG retriever
+        labels: [rag,search]
+        desc: Create src/utils/rag_retriever.py using hybrid search (BM25 + embedding)
+      - id: PILOT-R3
+        title: Integrate retriever into recommender
+        labels: [rag,rank]
+        desc: Replace static CSV filter with RAG-based retrieval + LLM rerank
+
+  - week: 9
+    name: 🔁 Reflection Agent v1
+    goal: Enable daily feedback-based learning loop
+    tasks:
+      - id: PILOT-F1
+        title: Capture feedback
+        labels: [feedback]
+        desc: Extend feedback_logger.py to append user_id,item_id,rating (👍=1,👎=0)
+      - id: PILOT-F2
+        title: Reweight items
+        labels: [learning]
+        desc: reflection_agent.py computes rolling averages and updates popularity weight
+      - id: PILOT-F3
+        title: Automate reflection
+        labels: [ops]
+        desc: Add cron/scheduler; log summaries to /logs/reflection/YYYYMMDD.json
+
+  - week: 10
+    name: 🧩 Memory Context (Conversational)
+    goal: Maintain context between turns
+    tasks:
+      - id: PILOT-M1
+        title: Redis session cache
+        labels: [memory,redis]
+        desc: Implement set_context()/get_context() for {user_id,last_city,last_query}
+      - id: PILOT-M2
+        title: Orchestrator integration
+        labels: [agentic,orchestrator]
+        desc: Reuse memory if city/category not mentioned
+      - id: PILOT-M3
+        title: Session expiry
+        labels: [ops,redis]
+        desc: TTL 3600 s on session keys
+
+  - week: 11
+    name: 🧮 Metric Tracking & Observability
+    goal: Evaluate reasoning quality and system performance
+    tasks:
+      - id: PILOT-O1
+        title: Add Prometheus metrics endpoint
+        labels: [metrics,observability]
+        desc: Expose /metrics with request count latency intent accuracy
+      - id: PILOT-O2
+        title: Implement reasoning trace logs
+        labels: [observability,logging]
+        desc: Write reasoning chain to logs/traces/YYYYMMDD.jsonl
+      - id: PILOT-O3
+        title: Grafana dashboard
+        labels: [observability,grafana]
+        desc: Panels for Latency (p95) Feedback Positivity Accuracy Trend
+
+  - week: 12
+    name: 💬 Arabic Reasoning Prompt + LangChain Orchestrator v1
+    goal: Improve localization and add agent routing
+    tasks:
+      - id: PILOT-A1
+        title: Arabic prompt design
+        labels: [prompt,localization]
+        desc: Create /src/prompts/intent_prompt_ar.txt and rerank_prompt_ar.txt
+      - id: PILOT-A2
+        title: Language switcher
+        labels: [nlp]
+        desc: Detect query language and load prompt
+      - id: PILOT-C1
+        title: Integrate LangChain base agent
+        labels: [agentic,langchain]
+        desc: initialize_agent with tools [conversation, recommend, reflect]
+      - id: PILOT-C2
+        title: Define tool interfaces
+        labels: [langchain]
+        desc: Register each agent function via LangChain tool decorators

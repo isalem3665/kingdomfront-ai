@@ -1,0 +1,9 @@
+openai
+langchain
+pandas
+redis
+elasticsearch
+tqdm
+python-dotenv
+fastapi
+uvicorn
