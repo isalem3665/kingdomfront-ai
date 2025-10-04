@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  redis:
+    image: redis:7-alpine
+    ports: [ "6379:6379" ]
+  orchestrator:
+    build: .
+    command: ["python", "src/orchestrator.py"]
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - .:/app
+    depends_on: [redis]
