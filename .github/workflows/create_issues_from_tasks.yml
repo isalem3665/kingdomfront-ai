@@ -1,0 +1,81 @@
+name: 🧠 Auto-Create Issues from tasks.yml
+
+on:
+  workflow_dispatch:        # ✅ allows manual trigger
+  push:
+    paths:
+      - "tasks.yml"         # ✅ runs when tasks.yml changes
+
+jobs:
+  generate_issues:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
+
+      - name: Create issues from tasks.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import os, yaml, requests
+
+          token = os.environ["GITHUB_TOKEN"]
+          repo  = os.environ["REPO"]
+          base  = f"https://api.github.com/repos/{repo}"
+          H = {"Authorization": f"Bearer {token}",
+               "Accept": "application/vnd.github+json"}
+
+          with open("tasks.yml", "r", encoding="utf-8") as f:
+              data = yaml.safe_load(f)
+
+          # Helper: get all issues
+          def get_all_issues():
+              out, page = [], 1
+              while True:
+                  r = requests.get(f"{base}/issues?state=all&per_page=100&page={page}", headers=H)
+                  if r.status_code != 200: break
+                  items = r.json()
+                  if not items: break
+                  out.extend(items)
+                  page += 1
+              return out
+
+          existing = {i["title"] for i in get_all_issues() if "pull_request" not in i}
+
+          def ensure_label(name, color="0e8a16"):
+              res = requests.get(f"{base}/labels/{name}", headers=H)
+              if res.status_code == 200:
+                  return
+              requests.post(f"{base}/labels", headers=H, json={"name": name, "color": color})
+
+          ensure_label("AI-Task", "0e8a16")
+          for ph in data["phases"]:
+              ensure_label(f"Week-{ph['week']}", "5319e7")
+
+          for ph in data["phases"]:
+              week = ph["week"]
+              for t in ph["tasks"]:
+                  title = f"[{t['id']}] {t['title']}"
+                  if title in existing:
+                      print(f"• Skip (exists): {title}")
+                      continue
+                  body = f"**Week:** {week}\n\n**Description:** {t['desc']}\n\n_Source: tasks.yml_"
+                  payload = {"title": title, "body": body, "labels": [f"Week-{week}", "AI-Task"]}
+                  res = requests.post(f"{base}/issues", headers=H, json=payload)
+                  print(f"{'✅' if res.status_code==201 else '❌'} {title} ({res.status_code})")
+          PY
