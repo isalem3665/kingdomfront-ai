@@ -1,0 +1,5564 @@
+{
+  "interactions": [
+    {
+      "timestamp": "2025-10-11T12:24:23.366416",
+      "query": "وش نسوي اليوم بالرياض؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: family | Tags: entertainment;outdoor",
+          "score": 1.26
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T12:33:03.465802",
+      "query": "وش نسوي اليوم بالرياض؟",
+      "response": [
+        {
+          "title": "لا توجد نتائج مطابقة في البيانات.",
+          "reason": "جرّب فئة أو مدينة أخرى.",
+          "score": 0.0
+        }
+      ],
+      "feedback": "negative"
+    },
+    {
+      "timestamp": "2025-10-11T12:36:31.484482",
+      "query": "وش نسوي اليوم بالرياض؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T12:38:59.592359",
+      "query": "وش نسوي اليوم بالرياض؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:11:09.056527",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:12:02.221111",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:23:02.040576",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:31:45.534001",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.23
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.25
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.22
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.24
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.23
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.24
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.21
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.25
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.2
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.21
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.2
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.19
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.22
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.28
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.2
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.23
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.22
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.2
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.21
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.2
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.24
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.21
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.22
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.23
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.23
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.22
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.21
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.19
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.2
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.2
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.22
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.2
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.21
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.25
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.2
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.18
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.19
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.22
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.23
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.21
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.15
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.26
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.25
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.24
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.23
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.25
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.27
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.25
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.22
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.28
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.26
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.24
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.22
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.25
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.24
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.21
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.23
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.27
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.24
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:48:55.710019",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.28
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.3
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.27
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.29
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.28
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.29
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.26
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.25
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.26
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.25
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.24
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.27
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.33
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.25
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.28
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.27
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.25
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.26
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.25
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.29
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.26
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.27
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.28
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.28
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.27
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.26
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.24
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.25
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.25
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.27
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.25
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.26
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.3
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.25
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.23
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.24
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.27
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.28
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.26
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.2
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.29
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.28
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.3
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.3
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.27
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.33
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.31
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.29
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.27
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.3
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.29
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.26
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.28
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.32
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.29
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:49:56.218620",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.33
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.35
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.32
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.34
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.33
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.34
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.31
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.3
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.31
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.3
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.29
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.32
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.38
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.3
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.33
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.32
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.3
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.31
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.3
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.34
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.31
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.32
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.33
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.33
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.32
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.31
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.29
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.3
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.3
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.32
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.3
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.31
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.35
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.3
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.28
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.29
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.32
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.33
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.31
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.25
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.34
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.33
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.35
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.35
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.32
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.38
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.36
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.34
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.32
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.35
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.34
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.31
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.33
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.37
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.34
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:51:09.565996",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.38
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.4
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.37
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.39
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.38
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.39
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.36
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.35
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.36
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.35
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.34
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.37
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.43
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.35
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.38
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.37
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.35
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.36
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.35
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.39
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.36
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.37
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.38
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.38
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.37
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.36
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.34
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.35
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.35
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.37
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.35
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.36
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.4
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.35
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.33
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.34
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.37
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.38
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.36
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.3
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.39
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.38
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.4
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.4
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.37
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.43
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.41
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.39
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.37
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.4
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.39
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.36
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.38
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.42
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.39
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:52:01.185298",
+      "query": "وش نسوي نهاية الأسبوع؟",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.43
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.45
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.42
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.44
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.43
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.44
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.41
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.4
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.41
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.4
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.39
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.42
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.48
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.4
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.43
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.42
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.4
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.41
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.4
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.44
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.41
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.42
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.43
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.43
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.42
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.41
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.39
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.4
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.4
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.42
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.4
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.41
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.45
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.4
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.38
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.39
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.42
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.43
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.41
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.35
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.44
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.43
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.45
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.45
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.42
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.48
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.46
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.44
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.42
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.45
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.44
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.41
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.43
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.47
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.44
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T13:56:32.221052",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.48
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.47
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.49
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.48
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.49
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.46
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.45
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.46
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.45
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.44
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.47
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.45
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.48
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.47
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.45
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.46
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.45
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.49
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.46
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.47
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.48
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.48
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.47
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.46
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.44
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.45
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.45
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.47
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.45
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.46
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.45
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.43
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.44
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.47
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.48
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.46
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.4
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.49
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.48
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.47
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.49
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.47
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.49
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.46
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.48
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.49
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:05:29.989873",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.49
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.49
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.48
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.49
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.45
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:06:05.917696",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:14:29.421021",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:16:03.466465",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:18:10.853235",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:25:59.343968",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:27:16.799249",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:40:05.733187",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:41:46.075632",
+      "query": "وش اسوي الحين",
+      "response": [
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:48:58.545006",
+      "query": "اريد خطة في جدة",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.27
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.25
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.28
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.26
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.26
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.24
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.23
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.22
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T14:57:09.676010",
+      "query": "اريد خطة في جدة",
+      "response": [
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:00:49.612196",
+      "query": "اريد خطة في جدة",
+      "response": [
+        {
+          "title": "Al Taif Park",
+          "reason": "Category: park | Tags: nature;flowers",
+          "score": 1.26
+        },
+        {
+          "title": "InterContinental Taif",
+          "reason": "Category: hotel | Tags: 4-star;mountain",
+          "score": 1.24
+        },
+        {
+          "title": "Shubra Palace",
+          "reason": "Category: museum | Tags: heritage;architecture",
+          "score": 1.25
+        },
+        {
+          "title": "Al Rudaf Park",
+          "reason": "Category: park | Tags: nature;mountain",
+          "score": 1.24
+        },
+        {
+          "title": "Al Shareef Museum",
+          "reason": "Category: museum | Tags: heritage;artifacts",
+          "score": 1.23
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:06:57.133838",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.32
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.3
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.33
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.31
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.31
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.29
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.28
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.27
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:17:05.943640",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.37
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.35
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.38
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.36
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.36
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.34
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.33
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.32
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:19:39.260200",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.42
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.4
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.43
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.41
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.41
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.39
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.38
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.37
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:24:26.061564",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.47
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.45
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.48
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.46
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.46
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.44
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.43
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.42
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:27:59.495451",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.49
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.48
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.47
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:33:59.493287",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:34:39.724353",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Al Taif Park",
+          "reason": "Category: park | Tags: nature;flowers",
+          "score": 1.31
+        },
+        {
+          "title": "InterContinental Taif",
+          "reason": "Category: hotel | Tags: 4-star;mountain",
+          "score": 1.29
+        },
+        {
+          "title": "Shubra Palace",
+          "reason": "Category: museum | Tags: heritage;architecture",
+          "score": 1.3
+        },
+        {
+          "title": "Al Rudaf Park",
+          "reason": "Category: park | Tags: nature;mountain",
+          "score": 1.29
+        },
+        {
+          "title": "Al Shareef Museum",
+          "reason": "Category: museum | Tags: heritage;artifacts",
+          "score": 1.28
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:36:16.323391",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:38:37.714476",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:39:40.420270",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:40:24.754374",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:56:02.237984",
+      "query": "اريد خطة نهاية الأسبوع في الرياض",
+      "response": [
+        {
+          "title": "Boulevard Riyadh City",
+          "reason": "Category: entertainment | Tags: theme-park;outdoor",
+          "score": 1.5
+        },
+        {
+          "title": "Cinema Vox Riyadh Park",
+          "reason": "Category: indoor | Tags: cinema;shopping",
+          "score": 1.5
+        },
+        {
+          "title": "Sky Bridge at Kingdom Tower",
+          "reason": "Category: viewpoint | Tags: landmark;city",
+          "score": 1.5
+        },
+        {
+          "title": "Souq Al Zal",
+          "reason": "Category: shopping | Tags: market;traditional",
+          "score": 1.5
+        },
+        {
+          "title": "Al Masmak Fort",
+          "reason": "Category: museum | Tags: heritage;history",
+          "score": 1.5
+        },
+        {
+          "title": "Kingdom Centre Tower",
+          "reason": "Category: viewpoint | Tags: landmark;skyscraper",
+          "score": 1.5
+        },
+        {
+          "title": "National Museum of Saudi Arabia",
+          "reason": "Category: museum | Tags: history;culture",
+          "score": 1.5
+        },
+        {
+          "title": "Al Faisaliah Tower",
+          "reason": "Category: viewpoint | Tags: skyscraper;dining",
+          "score": 1.5
+        },
+        {
+          "title": "Ad-Diriyah (At-Turaif)",
+          "reason": "Category: heritage | Tags: history;world-heritage",
+          "score": 1.5
+        },
+        {
+          "title": "Riyadh Zoo",
+          "reason": "Category: park | Tags: zoo;family",
+          "score": 1.5
+        },
+        {
+          "title": "King Abdullah Park",
+          "reason": "Category: park | Tags: nature;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "Salam Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Al Suwaidi Park",
+          "reason": "Category: park | Tags: nature;events",
+          "score": 1.5
+        },
+        {
+          "title": "Murabba Palace",
+          "reason": "Category: heritage | Tags: palace;museum",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "Royal Saudi Air Force Museum",
+          "reason": "Category: museum | Tags: military;history",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Hanifah",
+          "reason": "Category: natural | Tags: valley;outdoors",
+          "score": 1.5
+        },
+        {
+          "title": "King Khalid Grand Mosque",
+          "reason": "Category: religious | Tags: architecture;landmark",
+          "score": 1.5
+        },
+        {
+          "title": "Naila Art Gallery",
+          "reason": "Category: art | Tags: contemporary;gallery",
+          "score": 1.5
+        },
+        {
+          "title": "Najd Village",
+          "reason": "Category: restaurant | Tags: heritage;traditional;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Via Riyadh",
+          "reason": "Category: shopping | Tags: mall;luxury",
+          "score": 1.5
+        },
+        {
+          "title": "Boulevard World",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Al Watan Park",
+          "reason": "Category: park | Tags: nature;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Thumamah Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Murabba Historical Center",
+          "reason": "Category: heritage | Tags: museum;history",
+          "score": 1.5
+        },
+        {
+          "title": "Al Bujairi Heritage Park",
+          "reason": "Category: park | Tags: heritage;cultural",
+          "score": 1.5
+        },
+        {
+          "title": "Museum of Illusions",
+          "reason": "Category: interactive | Tags: museum;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Nofa Wildlife Park",
+          "reason": "Category: park | Tags: wildlife;nature",
+          "score": 1.5
+        },
+        {
+          "title": "Al Wahat al-Nakheel",
+          "reason": "Category: park | Tags: nature;green",
+          "score": 1.5
+        },
+        {
+          "title": "Wadi Namar Park",
+          "reason": "Category: park | Tags: nature;water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Ha’ir Parks & Lakes",
+          "reason": "Category: park | Tags: nature;water;relaxation",
+          "score": 1.5
+        },
+        {
+          "title": "King Salman Park",
+          "reason": "Category: park | Tags: mega;urban;green",
+          "score": 1.5
+        },
+        {
+          "title": "Al Khaimah Theme Park",
+          "reason": "Category: entertainment | Tags: theme-park;rides",
+          "score": 1.5
+        },
+        {
+          "title": "Snow City Riyadh",
+          "reason": "Category: indoor | Tags: theme-park;snow;fun",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sand Dunes",
+          "reason": "Category: adventure | Tags: desert;safari;nature",
+          "score": 1.5
+        },
+        {
+          "title": "KAFD (King Abdullah Financial District)",
+          "reason": "Category: district | Tags: architecture;modern",
+          "score": 1.5
+        },
+        {
+          "title": "Deera Square",
+          "reason": "Category: public space | Tags: market;historic",
+          "score": 1.5
+        },
+        {
+          "title": "Al Batha",
+          "reason": "Category: shopping | Tags: market;urban",
+          "score": 1.5
+        },
+        {
+          "title": "Jabal Tuwaiq viewpoint",
+          "reason": "Category: natural | Tags: landscape;cliff",
+          "score": 1.5
+        },
+        {
+          "title": "Imam Turki Bin Abdullah Grand Mosque",
+          "reason": "Category: religious | Tags: landmark;architecture",
+          "score": 1.5
+        },
+        {
+          "title": "Saqer Aljazirah Aviation Museum",
+          "reason": "Category: museum | Tags: aviation;history",
+          "score": 1.5
+        },
+        {
+          "title": "World Sights Park",
+          "reason": "Category: entertainment | Tags: park;public",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan",
+          "reason": "Category: restaurant | Tags: fine dining;hotel-restaurant",
+          "score": 1.5
+        },
+        {
+          "title": "Chorisia Lounge",
+          "reason": "Category: restaurant | Tags: lounge;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Zafran Indian Bistro",
+          "reason": "Category: restaurant | Tags: Indian;casual",
+          "score": 1.5
+        },
+        {
+          "title": "Al Dana Restaurant",
+          "reason": "Category: restaurant | Tags: international;hotel",
+          "score": 1.5
+        },
+        {
+          "title": "Che Figata",
+          "reason": "Category: restaurant | Tags: Italian;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Al Orjouan (in Ritz-Carlton)",
+          "reason": "Category: restaurant | Tags: Arabic;buffet",
+          "score": 1.5
+        },
+        {
+          "title": "Gaspar",
+          "reason": "Category: restaurant | Tags: modern;west;fusion",
+          "score": 1.5
+        },
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Mövenpick Hotel And Residences Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;residence",
+          "score": 1.5
+        },
+        {
+          "title": "Holiday Inn Riyadh - Olaya",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Crowne Plaza Riyadh RDC",
+          "reason": "Category: hotel | Tags: 5-star;convention",
+          "score": 1.5
+        },
+        {
+          "title": "Hilton Riyadh Hotel & Residences",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "ibis Riyadh Olaya Street",
+          "reason": "Category: hotel | Tags: 3-star;budget",
+          "score": 1.5
+        },
+        {
+          "title": "Novotel Riyadh Al Anoud",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Hotel & Convention Center Riyadh",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:57:10.111940",
+      "query": "اريد خطة في الطائف",
+      "response": [
+        {
+          "title": "Corniche Jeddah",
+          "reason": "Category: park | Tags: seaside;relaxing",
+          "score": 1.5
+        },
+        {
+          "title": "Red Sea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor",
+          "score": 1.5
+        },
+        {
+          "title": "Al Balad Historic District",
+          "reason": "Category: heritage | Tags: old-town;culture",
+          "score": 1.5
+        },
+        {
+          "title": "King Fahd Fountain",
+          "reason": "Category: landmark | Tags: water;scenic",
+          "score": 1.5
+        },
+        {
+          "title": "Jeddah Hilton",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Radisson Blu Jeddah",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.5
+        },
+        {
+          "title": "Al Shallal Theme Park",
+          "reason": "Category: entertainment | Tags: rides;family",
+          "score": 1.5
+        },
+        {
+          "title": "Serafi Mega Mall",
+          "reason": "Category: shopping | Tags: mall;family",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T15:58:29.166285",
+      "query": "سأزور أصدقائي في الدمام",
+      "response": [
+        {
+          "title": "The Ritz-Carlton, Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "Edge of The World",
+          "reason": "Category: natural | Tags: landscape;adventure",
+          "score": 1.5
+        },
+        {
+          "title": "InterContinental Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        },
+        {
+          "title": "House of Grill",
+          "reason": "Category: restaurant | Tags: steakhouse;fine dining",
+          "score": 1.5
+        },
+        {
+          "title": "Fairmont Riyadh",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.5
+        }
+      ],
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-10-11T16:01:08.036967",
+      "query": "سأزور أصدقائي في الدمام",
+      "response": [
+        {
+          "title": "Corniche Dammam",
+          "reason": "Category: park | Tags: seaside;family;outdoor",
+          "score": 1.26
+        },
+        {
+          "title": "King Fahd Park",
+          "reason": "Category: park | Tags: nature;family;picnic",
+          "score": 1.25
+        },
+        {
+          "title": "Dolphin Village",
+          "reason": "Category: entertainment | Tags: theme-park;family;marine",
+          "score": 1.23
+        },
+        {
+          "title": "Marjan Island",
+          "reason": "Category: park | Tags: beach;outdoor",
+          "score": 1.24
+        },
+        {
+          "title": "Al Shatea Mall",
+          "reason": "Category: shopping | Tags: mall;indoor;luxury",
+          "score": 1.22
+        },
+        {
+          "title": "Sofitel Al Khobar The Corniche",
+          "reason": "Category: hotel | Tags: luxury;5-star",
+          "score": 1.26
+        },
+        {
+          "title": "Novotel Dammam Business Park",
+          "reason": "Category: hotel | Tags: 4-star;business",
+          "score": 1.23
+        },
+        {
+          "title": "Sea Front Restaurant",
+          "reason": "Category: restaurant | Tags: seafood;dining",
+          "score": 1.24
+        }
+      ],
+      "feedback": "positive"
+    }
+  ]
+}

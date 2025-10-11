@@ -1,0 +1,82 @@
+id,title,category,tags,price_sar,rating,city
+1,Boulevard Riyadh City,entertainment,theme-park;outdoor,150,4.6,Riyadh
+2,Cinema Vox Riyadh Park,indoor,cinema;shopping,180,4.3,Riyadh
+3,Sky Bridge at Kingdom Tower,viewpoint,landmark;city,75,4.5,Riyadh
+4,Souq Al Zal,shopping,market;traditional,0,4.2,Riyadh
+5,Al Masmak Fort,museum,heritage;history,0,4.4,Riyadh
+6,Kingdom Centre Tower,viewpoint,landmark;skyscraper,100,4.3,Riyadh
+7,National Museum of Saudi Arabia,museum,history;culture,0,4.4,Riyadh
+8,Al Faisaliah Tower,viewpoint,skyscraper;dining,120,4.1,Riyadh
+9,Ad-Diriyah (At-Turaif),heritage,history;world-heritage,0,4.5,Riyadh
+10,Riyadh Zoo,park,zoo;family,50,4.0,Riyadh
+11,King Abdullah Park,park,nature;relaxation,0,4.1,Riyadh
+12,Salam Park,park,nature;urban,0,4.0,Riyadh
+13,Al Suwaidi Park,park,nature;events,0,3.9,Riyadh
+14,Murabba Palace,heritage,palace;museum,0,4.2,Riyadh
+15,Edge of The World,natural,landscape;adventure,200,4.8,Riyadh
+16,Royal Saudi Air Force Museum,museum,military;history,0,4.0,Riyadh
+17,Wadi Hanifah,natural,valley;outdoors,0,4.3,Riyadh
+18,King Khalid Grand Mosque,religious,architecture;landmark,0,4.2,Riyadh
+19,Naila Art Gallery,art,contemporary;gallery,30,4.0,Riyadh
+20,Najd Village,restaurant,heritage;traditional;cultural,80,4.1,Riyadh
+21,Via Riyadh,shopping,mall;luxury,0,4.0,Riyadh
+22,Boulevard World,entertainment,theme-park;rides,150,4.4,Riyadh
+23,Al Watan Park,park,nature;urban,0,4.1,Riyadh
+24,Thumamah Wildlife Park,park,wildlife;nature,0,4.2,Riyadh
+25,Al Murabba Historical Center,heritage,museum;history,0,4.3,Riyadh
+26,Al Bujairi Heritage Park,park,heritage;cultural,0,4.3,Riyadh
+27,Museum of Illusions,interactive,museum;fun,40,4.2,Riyadh
+28,Nofa Wildlife Park,park,wildlife;nature,0,4.1,Riyadh
+29,Al Wahat al-Nakheel,park,nature;green,0,3.9,Riyadh
+30,Wadi Namar Park,park,nature;water;scenic,0,4.0,Riyadh
+31,Al Ha’ir Parks & Lakes,park,nature;water;relaxation,0,4.0,Riyadh
+32,King Salman Park,park,mega;urban;green,0,4.2,Riyadh
+33,Al Khaimah Theme Park,entertainment,theme-park;rides,100,4.0,Riyadh
+34,Snow City Riyadh,indoor,theme-park;snow;fun,120,4.1,Riyadh
+35,Red Sand Dunes,adventure,desert;safari;nature,180,4.5,Riyadh
+36,KAFD (King Abdullah Financial District),district,architecture;modern,0,4.0,Riyadh
+37,Deera Square,public space,market;historic,0,3.8,Riyadh
+38,Al Batha,shopping,market;urban,0,3.9,Riyadh
+39,Jabal Tuwaiq viewpoint,natural,landscape;cliff,0,4.2,Riyadh
+40,Imam Turki Bin Abdullah Grand Mosque,religious,landmark;architecture,0,4.3,Riyadh
+41,Saqer Aljazirah Aviation Museum,museum,aviation;history,0,4.1,Riyadh
+42,World Sights Park,entertainment,park;public,0,3.5,Riyadh
+43,Al Orjouan,restaurant,fine dining;hotel-restaurant,200,4.6,Riyadh  
+44,Chorisia Lounge,restaurant,lounge;hotel,180,4.5,Riyadh  
+45,Zafran Indian Bistro,restaurant,Indian;casual,90,4.4,Riyadh  
+46,Al Dana Restaurant,restaurant,international;hotel,150,4.3,Riyadh  
+47,Che Figata,restaurant,Italian;fine dining,220,4.5,Riyadh  
+48,House of Grill,restaurant,steakhouse;fine dining,250,4.7,Riyadh  
+49,Al Orjouan (in Ritz-Carlton),restaurant,Arabic;buffet,180,4.5,Riyadh  
+50,Gaspar,restaurant,modern;west;fusion,160,4.2,Riyadh  
+51,"The Ritz-Carlton, Riyadh",hotel,luxury;5-star,1000,4.8,Riyadh  
+52,Fairmont Riyadh,hotel,luxury;5-star,850,4.6,Riyadh  
+53,Mövenpick Hotel And Residences Riyadh,hotel,4-star;residence,600,4.4,Riyadh  
+54,Holiday Inn Riyadh - Olaya,hotel,4-star;business,500,4.2,Riyadh  
+55,Crowne Plaza Riyadh RDC,hotel,5-star;convention,700,4.5,Riyadh  
+56,Hilton Riyadh Hotel & Residences,hotel,luxury;5-star,900,4.4,Riyadh  
+57,ibis Riyadh Olaya Street,hotel,3-star;budget,300,4.1,Riyadh  
+58,Novotel Riyadh Al Anoud,hotel,4-star;business,450,4.3,Riyadh  
+59,InterContinental Riyadh,hotel,luxury;5-star,950,4.7,Riyadh  
+60,Radisson Blu Hotel & Convention Center Riyadh,hotel,4-star;business,650,4.4,Riyadh
+61,Corniche Jeddah,park,seaside;relaxing,0,4.7,Jeddah
+62,Red Sea Mall,shopping,mall;indoor,0,4.5,Jeddah
+63,Al Balad Historic District,heritage,old-town;culture,0,4.8,Jeddah
+64,King Fahd Fountain,landmark,water;scenic,0,4.6,Jeddah
+65,Jeddah Hilton,hotel,luxury;5-star,950,4.6,Jeddah
+66,Radisson Blu Jeddah,hotel,4-star;business,650,4.4,Jeddah
+67,Al Shallal Theme Park,entertainment,rides;family,200,4.3,Jeddah
+68,Serafi Mega Mall,shopping,mall;family,0,4.2,Jeddah
+67,Al Taif Park,park,nature;flowers,0,4.6,Taif
+68,InterContinental Taif,hotel,4-star;mountain,700,4.4,Taif
+69,Shubra Palace,museum,heritage;architecture,0,4.5,Taif
+70,Al Rudaf Park,park,nature;mountain,0,4.4,Taif
+71,Al Shareef Museum,museum,heritage;artifacts,0,4.3,Taif
+72,Corniche Dammam,park,seaside;family;outdoor,0,4.6,Dammam
+73,King Fahd Park,park,nature;family;picnic,0,4.5,Dammam
+74,Dolphin Village,entertainment,theme-park;family;marine,50,4.3,Dammam
+75,Marjan Island,park,beach;outdoor,0,4.4,Dammam
+76,Al Shatea Mall,shopping,mall;indoor;luxury,0,4.2,Dammam
+77,Sofitel Al Khobar The Corniche,hotel,luxury;5-star,950,4.6,Dammam
+78,Novotel Dammam Business Park,hotel,4-star;business,700,4.3,Dammam
+79,Sea Front Restaurant,restaurant,seafood;dining,120,4.4,Dammam

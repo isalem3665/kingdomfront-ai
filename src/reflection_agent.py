@@ -1,25 +1,63 @@
-"""
-Reflection Agent v0
-Reads feedback.csv and updates item popularity weights.
-"""
+# src/agents/reflection_agent.py
+import json
+from datetime import datetime
+from pathlib import Path
 
-import pandas as pd, json, os
+MEMORY_FILE = Path("data/reflection_memory.json")
 
-DATA_PATH = os.getenv("DATA_PATH", "data/events_riyadh.csv")
-FEEDBACK_PATH = "data/feedback.csv"
-OUTPUT_PATH = "data/events_reflected.csv"
+class ReflectionAgent:
+    def __init__(self):
+        self.memory = self._load_memory()
 
-def reflect():
-    df = pd.read_csv(DATA_PATH)
-    if not os.path.exists(FEEDBACK_PATH):
-        print("No feedback yet.")
-        return
-    fb = pd.read_csv(FEEDBACK_PATH)
-    summary = fb.groupby("item_id")["rating"].mean().reset_index()
-    df = df.merge(summary, on="id", how="left")
-    df["adjusted_score"] = df["rating_y"].fillna(0) * 0.5 + df.get("rating_x", 3) * 0.5
-    df.to_csv(OUTPUT_PATH, index=False)
-    print(f"Reflection complete. Updated file → {OUTPUT_PATH}")
+    def _load_memory(self):
+        if MEMORY_FILE.exists():
+            with open(MEMORY_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return {"interactions": []}
 
-if __name__ == "__main__":
-    reflect()
+    def _save_memory(self):
+        MEMORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(MEMORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(self.memory, f, ensure_ascii=False, indent=2)
+
+    def log_interaction(self, query, response, feedback=None):
+        """Store a user interaction and feedback"""
+        entry = {
+            "timestamp": datetime.now().isoformat(),
+            "query": query,
+            "response": response,
+            "feedback": feedback
+        }
+        self.memory["interactions"].append(entry)
+        self._save_memory()
+
+    def reflect(self):
+        """Analyze memory and generate insights"""
+        if not self.memory["interactions"]:
+            return "No past interactions yet."
+
+        accepted = [
+            i for i in self.memory["interactions"]
+            if i.get("feedback") == "positive"
+        ]
+        rejected = [
+            i for i in self.memory["interactions"]
+            if i.get("feedback") == "negative"
+        ]
+
+        summary = {
+            "total": len(self.memory["interactions"]),
+            "positive": len(accepted),
+            "negative": len(rejected),
+            "insight": self._generate_insight(accepted, rejected)
+        }
+
+        return summary
+
+    def _generate_insight(self, accepted, rejected):
+        if not accepted and not rejected:
+            return "User preferences not yet established."
+        if len(accepted) > len(rejected):
+            return "User tends to prefer cultural or relaxing activities."
+        else:
+            return "User tends to prefer energetic or social activities."
